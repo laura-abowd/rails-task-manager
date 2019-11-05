@@ -1,0 +1,11 @@
+<div class="container">
+  <h1>My tasks!</h1>
+<p><%= link_to '+ Create a new item', new_task_path, class: "home-link" %></p>
+
+<ul>
+<% @tasks.each do |task| %>
+  <li><%= link_to task.title, task_path(task), class: "task-list"%></li>
+  <br>
+<% end %>
+</ul>
+</div>
