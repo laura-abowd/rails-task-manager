@@ -1,10 +1,28 @@
 body {
   background-color: #337CA0;
   color: #FFFC31;
+  font-family: 'Kanit', sans-serif;
 }
 
 h1 {
+  padding: 20px;
   text-align: center;
+}
+p {
+  font-size: 36px;
+}
+
+#create-item-link {
+  font-size: 24px;
+}
+
+li  {
+  list-style-type: none;
+}
+
+.fa-check-square {
+
+  padding-right: 10px;
 }
 
 .task-list {
